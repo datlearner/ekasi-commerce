@@ -92,7 +92,7 @@ p:hover{
   margin-left: -170px;
 }
 .h1{
-  margin-left: 280px;
+  margin-left: 70px;
   margin-top: 0;
 }
 
@@ -249,6 +249,10 @@ p:hover{
 .whit{
   font-size: 17px;
 
+}
+
+.blac{
+  color: black !important;
 }
 
 @media(max-width: 913px) {
