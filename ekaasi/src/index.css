@@ -238,6 +238,9 @@ p:hover{
   -o-border-radius: 100px;
   margin-top: -4px;
 }
+.black {
+  color:black
+}
 
 .white{
   font-size: 20px;
