@@ -301,7 +301,7 @@ p:hover{
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 710px) {
   .h1{
     margin-left: 13px;
     margin-top: 0;

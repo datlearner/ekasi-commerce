@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.collection{
+
+    width: 100%;
+    min-height: 100%;
+    background-color: #F4F4F4;
+    display: grid;
+}
+.collection .bg-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.collection .bg-flex .div{
+    width: 430px;
+    height: 470px;
+    margin: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+}
+
+.collection h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.collection .bg-flex .bg1{
+    background-image: url(../assets/nk2.png);
+    background-size: cover;
+ 
+}
+.collection .bg-flex .bg2{
+    background-image: url(../assets/jd1.png);
+    background-size: cover;
+}
+
+.collection .bg-flex .bg3{
+    background-image: url(../assets/nk1.png);
+    background-size: cover;
+}
+
+.col-items {
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .collection .bg-flex .div{
+        width: 100%;
+    }
+}
