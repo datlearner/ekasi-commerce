@@ -1,0 +1,77 @@
+.card-page{
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+.card-page .p{
+    text-align: center;
+    
+}
+
+.p p{
+    color: #404040;
+}
+
+.card-one{
+    width: 400px;
+    height: 520px;
+    border-radius: 15px;
+    background-color: white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+
+.my-div{
+    width: 500px;
+    height: 520px;
+    background-image: url(../assets/five.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    .my-div{
+        width: 400px;
+    }
+    .p h1 {
+        font-size: 15px;
+    }
+    .p p{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+    .my-div{
+        width: 350px;
+    }
+    .card-one{
+        width: 350px;
+    }
+}
+
+@media (max-width: 380px) {
+    .my-div{
+        width: 320px;
+    }
+    .card-one{
+        width: 320px;
+    }
+}

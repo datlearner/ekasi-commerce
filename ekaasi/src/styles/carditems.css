@@ -1,0 +1,67 @@
+.card-one{
+    margin: 10px
+}
+
+.card-one img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.card-one h4, p{
+    margin: 10px;
+}
+
+.card-one button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: black;
+    transition: .5s;
+    color: white;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.card-one p{
+    color: red;
+}
+.card-one button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+.iconnx{
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+.spaan{
+    position: absolute;
+    right: 25px;
+    top: 4px;
+    font-size: 10px;
+}
+ 
+@media (max-width: 440px) {
+    .card-one h4, p{
+     margin: 8px 30px;
+    }
+    .card-one button{
+        margin: 0px 25px;
+    }
+}
