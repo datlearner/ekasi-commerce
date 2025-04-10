@@ -32,7 +32,7 @@ const FooterSection = () => {
         <div className="footer-column">
           <h4>Company</h4>
           <ul>
-            <li>About Nike</li>
+            <li>About Ekasi</li>
             <li>News</li>
             <li>Careers</li>
             <li>Investors</li>
