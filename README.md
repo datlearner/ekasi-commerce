@@ -6,6 +6,7 @@ This is a modern eCommerce website built using React and Tailwind CSS. The proje
 
 Features
 
+`:wq
 React-powered UI for a smooth and dynamic experience.
 
 Tailwind CSS for a sleek, responsive, and customizable design.
@@ -42,28 +43,9 @@ Start the development server:
 
 npm run dev
 
-Folder Structure
-
-/ecommerce-website
-│── src
-│   ├── components  # Reusable UI components
-│   ├── pages       # Main pages
-│   ├── assets      # Images and icons
-│   ├── styles      # Custom styles
-│   ├── App.jsx     # Main application file
-│   ├── main.jsx    # React entry point
-│── public         # Static assets
-│── package.json   # Project dependencies
-│── tailwind.config.js  # Tailwind configuration
 
 Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
 
 For inquiries, reach out to kundaimuchemwa456@gmail.com.
