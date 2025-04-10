@@ -1,0 +1,169 @@
+.carousel {
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #F4F4F4;
+}
+
+.carousel-div {
+    width: 1300px;
+    height: 550px;
+    outline: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    /* Scrollbar styles (WebKit-based browsers) */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: grey transparent; /* Firefox */
+    display: grid;
+}
+
+/* WebKit scrollbar styles */
+.carousel-div::-webkit-scrollbar {
+    height: 30px; /* for horizontal scrollbar */
+}
+
+.carousel-div::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.carousel-div::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.car-flex {
+    display: flex;
+    justify-content: flex-start; /* changed from center */
+    align-items: center;
+    flex-wrap: nowrap; /* ensures no wrapping, enables horizontal scrolling */
+}
+
+.car-flex div {
+    width: 419px;
+    height: 530px;
+
+    margin: 6px;
+    flex-shrink: 0; /* ensures boxes don't shrink to fit */
+    position: relative;
+}
+
+.car-flex div  img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    
+}
+
+
+/* Responsive widths */
+@media (max-width: 1250px) {
+    .carousel-div {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .carousel-div {
+        width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-div {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-div {
+        width: 500px;
+    }
+    .car-flex div{
+        width: 486px;
+        
+    }
+}
+
+@media (max-width: 630px) {
+    .carousel-div {
+        width: 400px;
+    }
+    
+    .carousel-div div{
+        width: 387px;
+    }
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .carousel-div {
+        width: 405px;
+    }
+    .carousel-div div{
+        width: 387px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .carousel-div {
+        width: 405px;
+    }
+    .carousel-div div{
+        width: 370px;
+    }
+    
+}
+
+
+@media (max-width: 431px) {
+    .carousel-div {
+        width: 405px;
+    }
+    .carousel-div div{
+        width: 389px;
+    }
+    
+}
+
+
+@media (max-width: 391px) {
+    .carousel-div {
+        width: 405px;
+    }
+    .carousel-div div{
+        width: 369px;
+    }
+    
+}
+
+
+@media (max-width: 376px) {
+    .carousel-div {
+        width: 350px;
+    }
+    .carousel-div div{
+        width: 333px;
+    }
+    
+}
+@media (max-width: 321px) {
+    .carousel-div {
+        width: 300px;
+    }
+    .carousel-div div{
+        width: 250px;
+    }
+    
+}
