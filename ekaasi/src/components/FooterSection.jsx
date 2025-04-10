@@ -9,7 +9,7 @@ const FooterSection = () => {
           <h4>Resources</h4>
           <ul>
             <li>Find a Store</li>
-            <li>Nike Journal</li>
+            <li>Ekasi Journal</li>
             <li>Become a Member</li>
             <li>Feedback</li>
             <li>Promo Codes</li>
@@ -56,7 +56,7 @@ const FooterSection = () => {
 
       <div className="footer-bottom">
         <span>South Africa</span>
-        <span>© 2025 Nike, Inc. All rights reserved</span>
+        <span>© 2025 Ekasi, Inc. All rights reserved</span>
       </div>
     </footer>
   );
