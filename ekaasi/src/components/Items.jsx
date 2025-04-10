@@ -40,7 +40,7 @@ const Items = () => {
           <div>
 
           <img src={nine} alt='fashion' />
-          <h4>Manfinity Hypemode Men's Autumn/Winte...</h4>
+          <h4>Manfinity Hypemode Men's Autumn</h4>
            <p className='orange'>#Best Seller</p>
           <p>R 800</p>
    
